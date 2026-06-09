@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Nueva Solicitud Interna">
+        <div class="slds-p-around_medium">
+            <lightning-record-form
+                object-api-name="Internal_Request__c"
+                fields={fields}
+                mode="edit"
+                onsuccess={handleSuccess}>
+            </lightning-record-form>
+        </div>
+    </lightning-card>
+</template>
