@@ -1,0 +1,39 @@
+<template> <!--este es como un molde, lo unico que hace es que me muestra los campos ordenados y lindos-->
+    <lightning-card title="Resumen de Solicitud">
+        <div class="slds-p-around_medium">
+
+            <div class="slds-m-bottom_medium">
+                <h2 class="slds-text-heading_medium">{subject}</h2>
+                <span class={priorityBadgeClass}>{priority}</span>
+            </div>
+
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-size_1-of-2 slds-m-bottom_small">
+                    <p class="slds-text-color_weak">Category</p>
+                    <p>{category}</p>
+                </div>
+                <div class="slds-col slds-size_1-of-2 slds-m-bottom_small">
+                    <p class="slds-text-color_weak">Status</p>
+                    <p>{status}</p>
+                </div>
+                <div class="slds-col slds-size_1-of-2 slds-m-bottom_small">
+                    <p class="slds-text-color_weak">Impact</p>
+                    <p>{impact}</p>
+                </div>
+                <div class="slds-col slds-size_1-of-2 slds-m-bottom_small">
+                    <p class="slds-text-color_weak">Urgency</p>
+                    <p>{urgency}</p>
+                </div>
+                <div class="slds-col slds-size_1-of-2 slds-m-bottom_small">
+                    <p class="slds-text-color_weak">Assigned To</p>
+                    <p>{assignedTo}</p>
+                </div>
+                <div class="slds-col slds-size_1-of-2 slds-m-bottom_small">
+                    <p class="slds-text-color_weak">Closed Date</p>
+                    <p>{closedDate}</p>
+                </div>
+            </div>
+
+        </div>
+    </lightning-card>
+</template>
