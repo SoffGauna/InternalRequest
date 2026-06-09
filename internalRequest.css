@@ -1,0 +1,14 @@
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    margin-top: 4px;
+}
+.badge-critical { background-color: #c23934; }
+.badge-high     { background-color: #e07b00; }
+.badge-medium   { background-color: #0070d2; }
+.badge-low      { background-color: #04844b; }
+/*usa un color distinto para cada nivel de prioridad, este archivo es puro visual*/
